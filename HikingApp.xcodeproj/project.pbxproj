@@ -11,6 +11,11 @@
 		8DD686772C5642B200EE3FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD686762C5642B200EE3FA6 /* ContentView.swift */; };
 		8DD686792C5642B400EE3FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD686782C5642B400EE3FA6 /* Assets.xcassets */; };
 		8DD6867C2C5642B400EE3FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6867B2C5642B400EE3FA6 /* Preview Assets.xcassets */; };
+		8DD686852C56438100EE3FA6 /* hiking3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DD686822C56438100EE3FA6 /* hiking3.jpg */; };
+		8DD686862C56438100EE3FA6 /* hiking1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DD686832C56438100EE3FA6 /* hiking1.jpg */; };
+		8DD686872C56438100EE3FA6 /* hiking2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DD686842C56438100EE3FA6 /* hiking2.jpg */; };
+		8DD6868A2C5643BE00EE3FA6 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD686892C5643BE00EE3FA6 /* Hike.swift */; };
+		8DD6868C2C564D0700EE3FA6 /* HikeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6868B2C564D0700EE3FA6 /* HikeDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8DD686762C5642B200EE3FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DD686782C5642B400EE3FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD6867B2C5642B400EE3FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DD686822C56438100EE3FA6 /* hiking3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hiking3.jpg; path = ../../../Downloads/hiking3.jpg; sourceTree = "<group>"; };
+		8DD686832C56438100EE3FA6 /* hiking1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hiking1.jpg; path = ../../../Downloads/hiking1.jpg; sourceTree = "<group>"; };
+		8DD686842C56438100EE3FA6 /* hiking2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hiking2.jpg; path = ../../../Downloads/hiking2.jpg; sourceTree = "<group>"; };
+		8DD686892C5643BE00EE3FA6 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		8DD6868B2C564D0700EE3FA6 /* HikeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		8DD686732C5642B200EE3FA6 /* HikingApp */ = {
 			isa = PBXGroup;
 			children = (
+				8DD686882C5643AE00EE3FA6 /* Models */,
 				8DD686742C5642B200EE3FA6 /* HikingAppApp.swift */,
 				8DD686762C5642B200EE3FA6 /* ContentView.swift */,
 				8DD686782C5642B400EE3FA6 /* Assets.xcassets */,
+				8DD686832C56438100EE3FA6 /* hiking1.jpg */,
+				8DD686842C56438100EE3FA6 /* hiking2.jpg */,
+				8DD686822C56438100EE3FA6 /* hiking3.jpg */,
 				8DD6867A2C5642B400EE3FA6 /* Preview Content */,
+				8DD6868B2C564D0700EE3FA6 /* HikeDetailScreen.swift */,
 			);
 			path = HikingApp;
 			sourceTree = "<group>";
@@ -65,6 +80,14 @@
 				8DD6867B2C5642B400EE3FA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DD686882C5643AE00EE3FA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DD686892C5643BE00EE3FA6 /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD6867C2C5642B400EE3FA6 /* Preview Assets.xcassets in Resources */,
+				8DD686862C56438100EE3FA6 /* hiking1.jpg in Resources */,
+				8DD686872C56438100EE3FA6 /* hiking2.jpg in Resources */,
 				8DD686792C5642B400EE3FA6 /* Assets.xcassets in Resources */,
+				8DD686852C56438100EE3FA6 /* hiking3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD6868A2C5643BE00EE3FA6 /* Hike.swift in Sources */,
+				8DD6868C2C564D0700EE3FA6 /* HikeDetailScreen.swift in Sources */,
 				8DD686772C5642B200EE3FA6 /* ContentView.swift in Sources */,
 				8DD686752C5642B200EE3FA6 /* HikingAppApp.swift in Sources */,
 			);
